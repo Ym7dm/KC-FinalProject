@@ -5,7 +5,6 @@ body {
   width: 100%;
   height: 70px;
   background-color: #333333;
-  opacity: 0.9;
   position: sticky;
   top: -1px;
   z-index: 9;
@@ -13,7 +12,7 @@ body {
 #container {
   font-family: "El Messiri", sans-serif;
   width: 100%;
-  height: 2000px;
+  height: 3120px;
   background-color: white;
 }
 #title {
@@ -25,6 +24,7 @@ body {
   align-items: center;
   position: relative;
   top: 20px;
+  margin-top: 20px;
 }
 #title h1 {
   margin: 0%;
@@ -34,7 +34,7 @@ body {
 }
 #front-end {
   width: 100%;
-  height: 220px;
+  height: 840px;
   position: relative;
   bottom: -51px;
   padding-bottom: 40px;
@@ -42,41 +42,39 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: #f8f6f6;
+  background-color: #eeeeee;
 }
 #front-end-title {
   width: 100%;
-  height: 200px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  height: 80px;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 20px;
 }
-#front-end-title h2 {
+#front-end-title p {
   margin: 0%;
 }
 #front-end-text {
   font-family: "Tajawal", sans-serif;
   font-size: 23px;
   width: 1050px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  text-align: center;
 }
+
 #front-lang-title {
-  margin-top: 20px;
-  padding-top: 45px;
+  position: relative;
+  top: 80px;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #f8f6f6;
+  color: rgb(60, 60, 60);
 }
 .lang-pic {
   width: 1150px;
-  height: 160px;
-  /* background-color: rebeccapurple; */
+  margin-top: 80px;
   margin-bottom: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -93,10 +91,13 @@ body {
   width: 150px;
   height: 150px;
 }
+#lang-position {
+  position: relative;
+  bottom: 15px;
+}
 #lang-container {
   width: 100%;
   height: 600px;
-  background-color: #f8f6f6;
   margin-top: -25px;
   display: flex;
   flex-direction: column;
@@ -106,13 +107,11 @@ body {
 #lang-div {
   width: 1300px;
   height: 370px;
-  /* background-color: bisque; */
   display: grid;
   gap: 50px;
   grid-template-columns: repeat(3, 1fr);
 }
 .lang {
-  /* background-color: gold; */
   text-align: center;
   font-size: 30px;
   padding: 5px;
@@ -125,10 +124,40 @@ body {
   font-size: 20px;
   margin: 0%;
 }
-#framework {
+#lang-youtube {
   width: 100%;
-  height: 500px;
-  background-color: white;
+  height: 140px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  top: 50px;
+  color: rgb(60, 60, 60);
+}
+#lang-youtube-title h2 {
+  margin: 0%;
+}
+#lang-youtube-text {
+  width: 600px;
+  height: 100px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#framework-intro {
+  width: 100%;
+  height: 250px;
+  background-color: #eeeeee;
+  position: relative;
+  top: 50px;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #framework-title {
   width: 100%;
@@ -140,18 +169,185 @@ body {
 }
 #framework-title h2 {
   margin: 0%;
+  color: rgb(60, 60, 60);
 }
-#back-end {
-  background-color: #f8f6f6;
+#framework-text {
+  font-family: "Tajawal", sans-serif;
+  font-size: 23px;
+  width: 1050px;
+  height: 140px;
+  text-align: center;
+  margin-bottom: 15px;
 }
-#back-end-title {
-  width: 100%;
-  height: 125px;
+#framework-text p {
+  margin: 0%;
+}
+#framework-position-big {
+  height: 950px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #eeeeee;
+  position: relative;
+  top: 50px;
 }
-#back-end-title h2 {
+#framework-position-small {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -35px;
+}
+.framework-pic {
+  width: 720px;
+  height: 150px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 420px;
+  position: relative;
+  top: 50px;
+  margin-top: 15px;
+}
+.framework-pic div {
+  width: 150px;
+  height: 150px;
+}
+.framework-pic img {
+  width: 150px;
+  height: 150px;
+}
+.framework-pic-2 {
+  width: 720px;
+  height: 150px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 420px;
+  position: relative;
+  top: 80px;
+}
+.framework-pic-2 div {
+  width: 150px;
+  height: 150px;
+}
+.framework-pic-2 img {
+  width: 150px;
+  height: 150px;
+}
+.framework-container {
+  width: 1080px;
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(2, 1fr);
+  position: relative;
+  top: 50px;
+}
+.framework-container-2 {
+  width: 1080px;
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(2, 1fr);
+  position: relative;
+  top: 80px;
+}
+.framework {
+  text-align: center;
+  font-size: 30px;
+  padding: 5px;
+}
+.framework h5 {
+  margin: 10px;
+}
+.framework p {
+  font-family: "Tajawal", sans-serif;
+  font-size: 20px;
+  margin: 0%;
+}
+#framework-youtube {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  top: 60px;
+  background-color: white;
+}
+#framework-youtube-title h2 {
+  margin: 0%;
+  color: rgb(60, 60, 60);
+}
+#framework-youtube-text {
+  width: 600px;
+  height: 100px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#back-end-container {
+  width: 100%;
+  height: 700px;
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 110px;
+}
+#back-end-title {
+  width: 100%;
+  height: 80px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 30px;
+  font-weight: 800;
+}
+#back-end-title p {
+  margin: 0%;
+}
+#back-end-text {
+  font-family: "Tajawal", sans-serif;
+  font-size: 23px;
+  width: 1050px;
+  text-align: center;
+}
+#back-lang-title {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  margin: 10px;
+  color: rgb(60, 60, 60);
+}
+#back-lang-title h2 {
+  margin: 0%;
+}
+#php-pic {
+  width: 160px;
+  height: 86.4375px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#php-pic img {
+  width: 160px;
+  height: 86.4375px;
+}
+#php {
+  width: 515px;
+  font-family: "Tajawal", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  padding: 5px;
+}
+#php h5 {
+  margin: 20px;
+}
+#php p {
+  font-family: "Tajawal", sans-serif;
+  font-size: 20px;
   margin: 0%;
 }

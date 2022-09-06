@@ -1,0 +1,162 @@
+body {
+  margin: 0px;
+}
+#navbar {
+  width: 100%;
+  height: 70px;
+  background-color: #333333;
+  position: sticky;
+  top: -1px;
+  z-index: 9;
+}
+#container {
+  font-family: "El Messiri", sans-serif;
+  width: 100%;
+  height: 2500px;
+  background-color: white;
+}
+#title {
+  width: 100%;
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+#title h1 {
+  margin: 0%;
+}
+#title h3 {
+  width: 810px;
+  margin: 0px;
+  margin-top: 20px;
+}
+#native-container {
+  width: 100%;
+  height: 1080px;
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#native-container-title {
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  margin-top: 20px;
+}
+#native-container-title p {
+  margin: 0%;
+  font-size: 30px;
+  font-weight: 800;
+}
+#android-title {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(60, 60, 60);
+}
+#android-title h2 {
+  margin: 0%;
+}
+#native-pic-android {
+  width: 755px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 455px;
+  /* background-color: orchid; */
+}
+#native-pic-android div {
+  width: 150px;
+  height: 150px;
+  /* background-color: blue; */
+}
+#native-pic-android img {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+}
+#Android-div {
+  width: 1100px;
+  height: 295px;
+  /* background-color: khaki; */
+  display: grid;
+  gap: 125px;
+  grid-template-columns: repeat(2, 1fr);
+}
+.Android {
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  /* background-color: palegreen; */
+}
+.Android h5 {
+  margin: 10px;
+}
+.Android p {
+  font-family: "Tajawal", sans-serif;
+  font-size: 20px;
+  margin: 0%;
+}
+.hr {
+  width: 1000px;
+  color: rgb(60, 60, 60);
+}
+#ios-title {
+  margin-top: 25px;
+  text-align: center;
+  color: rgb(60, 60, 60);
+}
+#ios-title h2 {
+  margin: 0%;
+}
+#ios-position {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: blue; */
+}
+#native-pic-ios {
+  width: 200px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* background-color: orchid; */
+}
+#native-pic-ios div {
+  width: 150px;
+  height: 150px;
+  /* background-color: hotpink; */
+}
+#native-pic-ios img {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+}
+#ios-div {
+  width: 700px;
+  height: 245px;
+  display: grid;
+  grid-template-columns: 1fr;
+  /* background-color: navy; */
+}
+.ios {
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  /* background-color: palegreen; */
+}
+.ios h5 {
+  margin: 10px;
+}
+.ios p {
+  font-family: "Tajawal", sans-serif;
+  font-size: 20px;
+  margin: 0%;
+}

@@ -12,7 +12,7 @@ body {
 #container {
   font-family: "El Messiri", sans-serif;
   width: 100%;
-  height: 1110px;
+  height: 1000px;
   background-color: white;
 }
 #title {
@@ -33,85 +33,85 @@ body {
   margin: 0px;
   margin-top: 20px;
 }
-#game-engines {
+#cyb-benefits {
   width: 100%;
-  height: 390px;
+  height: 200px;
   background-color: #eeeeee;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
   align-items: center;
 }
-#game-engines-title {
+#cyb-benefits-title {
   text-align: center;
 }
-#game-engines-title h2 {
+#cyb-benefits-title h2 {
   margin: 0%;
 }
-#game-engines-text {
+#cyb-benefits-text {
   font-family: "Tajawal", sans-serif;
-  font-size: 23px;
+  font-size: 25px;
   width: 700px;
-  height: 350px;
+  height: 155px;
   line-height: 1.5;
-  /* background-color: olive; */
 }
-#game-engines-text p {
+#cyb-benefits-text p {
   margin: 0%;
 }
-#game-container {
+#cyb-container {
   width: 100%;
-  height: 500px;
+  height: 620px;
   background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 15px;
 }
-#game-container-title {
+#cyb-container-title {
   width: 100%;
   height: 40px;
   text-align: center;
   margin-top: 20px;
 }
 
-#game-container-title h2 {
+#cyb-container-title h2 {
   margin: 0%;
 }
-#game-pic {
-  width: 755px;
+#cyb-pic {
+  width: 1065px;
   margin-top: 30px;
   margin-bottom: 5px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 455px;
+  gap: 240px;
   /* background-color: firebrick; */
 }
-#game-pic div {
-  width: 150px;
-  height: 150px;
+#cyb-pic div {
+  width: 195px;
+  height: 180px;
 }
-#game-pic img {
-  width: 150px;
-  height: 150px;
+#cyb-pic img {
+  width: 195px;
+  height: 180px;
+  border-radius: 15px;
 }
-#game-div {
-  width: 1070px;
-  height: 240px;
-  /* background-color: yellowgreen; */
+#cyb-div {
+  width: 1270px;
+  height: 320px;
+  /* background-color: khaki; */
   display: grid;
-  gap: 130px;
-  grid-template-columns: repeat(2, 1fr);
+  gap: 35px;
+  grid-template-columns: repeat(3, 1fr);
 }
-.game {
+.cyb {
   text-align: center;
   font-size: 30px;
+  padding: 10px;
   /* background-color: palegreen; */
 }
-.game h5 {
+.cyb h5 {
   margin: 10px;
 }
-.game p {
+.cyb p {
   font-family: "Tajawal", sans-serif;
   font-size: 20px;
   margin: 0%;
