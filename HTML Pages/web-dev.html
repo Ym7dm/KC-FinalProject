@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Web Development</title>
+    <title>Progrdata</title>
     <link rel=" icon" href="../Images/icon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,10 +15,32 @@
     <link rel="stylesheet" href="../CSS Pages/web-dev.css" />
   </head>
   <body>
-    <div id="navbar"></div>
     <div id="container">
+      <div id="navbar">
+        <img src="../Images/Logo.png" alt="Progdata logo" />
+        <div id="links">
+          <a href="../HTML Pages/index.html">Home</a>
+          <a href="../HTML Pages/#fields">Programming fields</a>
+          <a href="../HTML Pages/about-contact-us.html#about">About us</a>
+          <a href="../HTML Pages/about-contact-us.html#contact">contact us</a>
+          <a href=""></a>
+        </div>
+        <img
+          src="../Images/moon.png"
+          alt="Moon Icon"
+          id="icon"
+          style="
+            cursor: pointer;
+            width: 30px;
+            height: 30px;
+            position: relative;
+            left: 550px;
+          "
+        />
+      </div>
       <div id="title" dir="rtl">
-        <h1>تطوير مواقع الويب Web Development</h1>
+        <h1>تطوير مواقع الويب</h1>
+        <h1>Web Development</h1>
         <h3>
           يعتبر مجال تطوير المواقع واحدا من أهم مجالات البرمجة حاليا وينقسم إلى
           قسمين أساسيين تطوير الواجهة الأمامية Front-end Development وتطوير
@@ -95,12 +117,14 @@
             </div>
           </div>
         </div>
+        <hr class="hr" id="lang-hr" />
       </div>
+
       <!-- lang-youtube-------------------------------------------------- -->
 
       <div id="lang-youtube">
         <div id="lang-youtube-title">
-          <h2>قنوات يوتيوب لتعلم لغات</h2>
+          <h2>قنوات يوتيوب لتعلم</h2>
           <h2>تطوير الواجهات الأمامية</h2>
         </div>
         <div id="lang-youtube-text">
@@ -204,11 +228,13 @@
             </div>
           </div>
         </div>
+        <hr class="hr" id="frame-hr" />
+
         <!-- Framework Youtube----------------------------------------- -->
         <div id="framework-youtube">
           <div id="framework-youtube-title">
-            <h2>قنوات يوتيوب لتعلم لغات</h2>
-            <h2>تطوير الواجهات الأمامية</h2>
+            <h2>قنوات يوتيوب لتعلم</h2>
+            <h2>أطارات العمل</h2>
           </div>
           <div id="framework-youtube-text">
             <ul>
@@ -241,20 +267,45 @@
         <div id="back-lang-title">
           <h2>إحدى لغات تطوير الواجهات الخلفية</h2>
         </div>
-        <div id="php-pic">
-          <img src="../Images/PHP.png" alt="PHP" />
+        <div id="php-position">
+          <div id="php-pic">
+            <img src="../Images/PHP.png" alt="PHP" />
+          </div>
+          <div id="php">
+            <h5>php</h5>
+            <p dir="rtl">
+              هي لغة مفتوحة المصدر تستخدم في برمجة الواجهات الخلفية للمواقع أيا
+              من جهة الخادم، كما لها شعبية وتعتبر من أفضل اللغات في مجالها،
+              وتتميز بأنها مرنة وسهل دمجها مع لغات أخرى مثل/ و/. ومن المواقع
+              التي تستخدم لغة البرمجة PHP موقع Facebook وموقع Yahoo وموقع
+              WordPress وموقع Tumblr.
+            </p>
+          </div>
         </div>
-        <div id="php">
-          <h5>php</h5>
-          <p dir="rtl">
-            هي لغة مفتوحة المصدر تستخدم في برمجة الواجهات الخلفية للمواقع أيا من
-            جهة الخادم، كما لها شعبية وتعتبر من أفضل اللغات في مجالها، وتتميز
-            بأنها مرنة وسهل دمجها مع لغات أخرى مثل/ و/. ومن المواقع التي تستخدم
-            لغة البرمجة PHP موقع Facebook وموقع Yahoo وموقع WordPress وموقع
-            Tumblr.
-          </p>
+
+        <hr class="hr" />
+
+        <div id="php-youtube">
+          <div id="php-youtube-title" dir="rtl">
+            <h2>قنوات يوتيوب لتعلم لغة PHP</h2>
+          </div>
+          <div id="php-youtube-text">
+            <ul>
+              <li>Elzero Web School</li>
+              <li>Muhammed Essa</li>
+              <li>Nour hosni</li>
+            </ul>
+            <ul>
+              <li>Coder Shiyar</li>
+              <li>Abdelrahman Gamal</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
+    <div id="footer">
+      <p>© Progdata 2022 all rights reserved</p>
+    </div>
+    <script src="../JS-Pages/script.js"></script>
   </body>
 </html>

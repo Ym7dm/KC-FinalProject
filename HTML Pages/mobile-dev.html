@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mobile App Development</title>
+    <title>Progrdata</title>
     <link rel=" icon" href="../Images/icon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,21 +15,52 @@
     <link rel="stylesheet" href="../CSS Pages/mobile-dev.css" />
   </head>
   <body>
-    <div id="navbar"></div>
     <div id="container">
+      <div id="navbar">
+        <img src="../Images/Logo.png" alt="Progdata logo" />
+        <div id="links">
+          <a href="../HTML Pages/index.html">Home</a>
+          <a href="../HTML Pages/#fields">Programming fields</a>
+          <a href="../HTML Pages/about-contact-us.html#about">About us</a>
+          <a href="../HTML Pages/about-contact-us.html#contact">contact us</a>
+          <a href=""></a>
+        </div>
+        <img
+          src="../Images/moon.png"
+          alt="Moon Icon"
+          id="icon"
+          style="
+            cursor: pointer;
+            width: 30px;
+            height: 30px;
+            position: relative;
+            left: 550px;
+          "
+        />
+      </div>
       <div id="title" dir="rtl">
-        <h1>تطوير تطبيقات الموبايل Mobile App Development</h1>
+        <h1>تطوير تطبيقات الموبايل</h1>
+        <h1>Mobile App Development</h1>
         <h3>
           يعتبر تطوير تطبيقات الموبايل إحدى أهم المهن البرمجية منذ انتشار
           الأجهزة الذكية، ولم تعد تتم عملية بناء أي تطبيق بنفس الطريقة الماضية،
-          حيث أدى عدد المبرمجين الكبير والعمل الجاد إلى تسهيل هذه العملية،
-          تطبيقات الموبايل تنقسم إلى نوعين رئيسيين هما: Native Apps و Hybird
-          Apps .
+          حيث أدى عدد المبرمجين الكبير أدى إلى تسهيل هذه العملية. تطبيقات
+          الموبايل تنقسم إلى نوعين رئيسيين هما: Native Apps و Hybird Apps .
         </h3>
       </div>
       <div id="native-container">
         <div id="native-container-title">
+          <p>التطبيقات الأصلية</p>
           <p>Native Apps</p>
+        </div>
+        <div id="native-container-text">
+          <p dir="rtl">
+            وهي التطبيقات المبنية باستخدام اللغات الأصلية المخصصة للمنصة الموجهة
+            إليها ، وهو النوع الأشهر بين أنواع التطبيقات ، إذ يستخدم لبناء تطبيق
+            مخصص لمنصة واحدة فقط وهي الأسرع، ولغات البرمجة المستخدمة في هذا
+            النوع من التطبيقات هي Java و Kotlin لنظام التشغيل Android وتستخدم
+            لغات عدة منها لغة Swift لنظام التشغيل iOS.
+          </p>
         </div>
         <div id="android-title">
           <h2>تطبيقات الأندرويد</h2>
@@ -50,10 +81,11 @@
             <h5>1-Java</h5>
             <p dir="rtl">
               لغة Java تستخدم بمثابة العقل المفكر المستخدم لتشغيل أجهزة
-              التطبيقات الذكية، وقد كانت لغة الجافا تطويرا للغة C++ ، وأهم ما
-              تتميز به لغة Java إنشاء تطبيقات الاندرويد، وإضافة الحركة والصوت
-              إلى صفحات الويب، وكتابة الألعاب والبرامج المساعدة، وإنشاء برامج
-              ذات واجهة مستخدم رسومية.
+              التطبيقات الذكية، وقد كانت لغة الجافا تطويرا للغة
+              <a href="./game-dev.html#game-1" dir="ltr">C++</a> ، وأهم ما تتميز
+              به لغة Java إنشاء تطبيقات الاندرويد، وإضافة الحركة والصوت إلى
+              صفحات الويب، وكتابة الألعاب والبرامج المساعدة، وإنشاء برامج ذات
+              واجهة مستخدم رسومية.
             </p>
           </div>
           <div class="Android" id="Android-2">
@@ -98,7 +130,82 @@
           </div>
         </div>
         <hr class="hr" />
+        <!-- Native Youtube----------------------------------------- -->
+        <div id="native-youtube">
+          <div id="native-youtube-title">
+            <h2>قنوات يوتيوب لتعلم لغات</h2>
+            <h2>مجال تطوير التطبيقات الأصلية</h2>
+          </div>
+          <div id="native-youtube-text">
+            <ul>
+              <li>Brackeys</li>
+              <li>Awesome Tuts</li>
+            </ul>
+            <ul>
+              <li>freeCodeCamp.org</li>
+              <li>Unreal Sensei</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Hybird Apps------------------------------------------------- -->
+      <div id="hybird-container">
+        <div id="hybird-container-title">
+          <p>التطبيقات الهجينة</p>
+          <p>Hybird Apps</p>
+        </div>
+        <div id="hybird-container-text">
+          <p dir="rtl">
+            هي تطبيقات مختلطة بين تطبيقات الويب والتطبيقات الأصلية، تستخدم لغة
+            HTML ولغة CSS ولغة JavaScript في بنائها، وهي تظهر ضمن Container أو
+            Webview فيسهل عرضها وتعديلها وصيانتها، وأشهر لغات البرمجة المستخدمة
+            في هذا النوع من التطبيقات هي Flutter و React Native.
+          </p>
+        </div>
+        <!-- Flutter ------------------------------------------------- -->
+        <div id="hybird-lang-title">
+          <h2>إحدى لغات التطبيقات الهجينة</h2>
+        </div>
+        <div id="flutter-position">
+          <!-- Flutter pic------------------------------------------------- -->
+          <div id="flutter-pic">
+            <div>
+              <img src="../Images/flutter.png" alt="Swift" />
+            </div>
+          </div>
+          <!-- Flutter Div------------------------------------------------- -->
+          <div id="flutter-div">
+            <div class="flutter" id="flutter-1">
+              <h5>Flutter</h5>
+              <p dir="rtl">
+                عبارة عن إطار عمل متعدد المنصات يتكون من حزمة أدوات لتطوير
+                البرمجيات، ويعتمد Flutter على لغة Dart التابعة لشركة Google.
+                يمكنك إطار العمل Flutter من تطوير تطبيقات الويب والموبايل
+                وتطبيقات سطح المكتب.
+              </p>
+            </div>
+          </div>
+        </div>
+        <hr class="hr" />
+        <!-- Flutter Youtube----------------------------------------- -->
+        <div id="flutter-youtube">
+          <div id="flutter-youtube-title">
+            <h2>قنوات يوتيوب لتعلم لغات</h2>
+            <h2>مجال تطوير التطبيقات الهجينة</h2>
+          </div>
+          <div id="flutter-youtube-text">
+            <ul>
+              <li>Asem Saafan</li>
+              <li>Ammar Alkhatib</li>
+              <li>Wael abo</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
+    <div id="footer">
+      <p>© Progdata 2022 all rights reserved</p>
+    </div>
+    <script src="../JS-Pages/script.js"></script>
   </body>
 </html>

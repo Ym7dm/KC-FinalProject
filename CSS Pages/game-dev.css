@@ -1,19 +1,71 @@
 body {
   margin: 0px;
 }
+/* يستخدم في اجزاء كثيرة في الصقحة  */
+.hr {
+  width: 1000px;
+  color: var(--text);
+}
+/* فلذلك في بداية الكود */
+:root {
+  --text: #000000;
+  --back-1: #e9ecef;
+  --Back-2: #ced4da;
+  --card: #ffffff;
+  --nav-hover: #ffffff;
+  --nav-back: #cbdfbd;
+}
+.dark-theme {
+  --text: #ffffff;
+  --back-1: #212529;
+  --Back-2: #343a40;
+  --card: #6c757d;
+  --nav-hover: #000000;
+  --nav-back: #0d3b66;
+}
 #navbar {
   width: 100%;
   height: 70px;
-  background-color: #333333;
+  background-color: var(--nav-back);
   position: sticky;
-  top: -1px;
+  top: 0px;
   z-index: 9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#navbar img {
+  width: 116px;
+  height: 59px;
+  position: relative;
+  left: 60px;
+}
+#links {
+  width: 600px;
+  height: 60px;
+  position: relative;
+  right: -580px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+#links a {
+  font-size: 23px;
+  text-decoration: none;
+  color: var(--text);
+  line-height: 1.3;
+  transition: color 0.6s ease-in-out;
+}
+#links a:hover {
+  color: var(--nav-hover);
 }
 #container {
   font-family: "El Messiri", sans-serif;
   width: 100%;
-  height: 1110px;
-  background-color: white;
+  height: 1360px;
+  background-color: var(--back-1);
+  color: var(--text);
 }
 #title {
   width: 100%;
@@ -22,8 +74,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
-  margin-bottom: 15px;
+  margin-top: 35px;
+  margin-bottom: 45px;
 }
 #title h1 {
   margin: 0%;
@@ -32,11 +84,12 @@ body {
   width: 800px;
   margin: 0px;
   margin-top: 20px;
+  text-align: center;
 }
 #game-engines {
   width: 100%;
-  height: 390px;
-  background-color: #eeeeee;
+  height: 345px;
+  background-color: var(--Back-2);
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
@@ -51,18 +104,17 @@ body {
 #game-engines-text {
   font-family: "Tajawal", sans-serif;
   font-size: 23px;
-  width: 700px;
-  height: 350px;
-  line-height: 1.5;
-  /* background-color: olive; */
+  width: 706px;
+  height: 300px;
+  line-height: 1.4;
 }
 #game-engines-text p {
   margin: 0%;
 }
 #game-container {
   width: 100%;
-  height: 500px;
-  background-color: white;
+  height: 677px;
+  background-color: var(--back-1);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -85,7 +137,6 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 455px;
-  /* background-color: firebrick; */
 }
 #game-pic div {
   width: 150px;
@@ -97,8 +148,6 @@ body {
 }
 #game-div {
   width: 1070px;
-  height: 240px;
-  /* background-color: yellowgreen; */
   display: grid;
   gap: 130px;
   grid-template-columns: repeat(2, 1fr);
@@ -106,7 +155,6 @@ body {
 .game {
   text-align: center;
   font-size: 30px;
-  /* background-color: palegreen; */
 }
 .game h5 {
   margin: 10px;
@@ -115,4 +163,44 @@ body {
   font-family: "Tajawal", sans-serif;
   font-size: 20px;
   margin: 0%;
+}
+#game-hr {
+  margin-top: 5px;
+  position: relative;
+  top: 35px;
+}
+#game-youtube {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  top: 50px;
+  color: var(--text);
+  background-color: var(--back-1);
+}
+#game-youtube-title h2 {
+  margin: 0%;
+  text-align: center;
+}
+#game-youtube-text {
+  width: 600px;
+  height: 100px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#footer {
+  width: 100%;
+  height: 100px;
+  background-color: #0d3b66;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
