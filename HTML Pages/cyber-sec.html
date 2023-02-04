@@ -12,7 +12,9 @@
       href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&family=Tajawal:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="../CSS Pages/cyber-sec.css" />
+    <link rel="stylesheet" href="../CSS Pages/normalize.css" />
   </head>
   <body>
     <div id="container">
@@ -40,9 +42,9 @@
       </div>
       <!-- Title ------------------------------------------------------>
       <div id="title" dir="rtl">
-        <h1>الأمن السيبيراني</h1>
-        <h1>Syber Security</h1>
-        <h3>
+        <h1 data-aos="fade-down">الأمن السيبيراني</h1>
+        <h1 data-aos="fade-down">Cyber Security</h1>
+        <h3 data-aos="fade-up">
           يمكن تعريف الأمن السيبيراني Syber Security بأنه حماية لأجهزة
           الكمبيوتر، والخوادم، والأجهزة المحمولة، والأنظمة الإلكترونية،
           والشبكات، والبيانات من الهجمات الخبيثة ويعرف أيضا باسم أمن تكنولوجيا
@@ -51,11 +53,11 @@
       </div>
       <!-- cyber security benefits  -->
       <div id="cyb-benefits">
-        <div id="cyb-benefits-title">
+        <div id="cyb-benefits-title" data-aos="fade-left">
           <h2>فوائد الأمن السيبيراني</h2>
           <h2>Cyber Security Benefits</h2>
         </div>
-        <div id="cyb-benefits-text">
+        <div id="cyb-benefits-text" data-aos="fade-right">
           <p dir="rtl">
             أبرز فوائد الأمن السيبيراني هي حماية الشبكات والبيانات من الدخول غير
             المصرح، وتحسين مستوى حماية المعلومات وضمان استمرارية الأعمال،
@@ -65,27 +67,36 @@
         </div>
       </div>
       <div id="cyb-container">
-        <div id="cyb-container-title">
+        <div id="cyb-container-title" data-aos="fade-up">
           <h2>بعض أنواع الأمن السيبيراني</h2>
         </div>
         <!-- Cyber Security pic --------------------------------------- -->
         <div id="cyb-pic">
           <div>
-            <img src="../Images/network security.PNG" alt="Network Security" />
+            <img
+              src="../Images/mobile security.PNG"
+              alt="Mobile Security"
+              data-aos="fade-right"
+            />
           </div>
           <div>
-            <img src="../Images/mobile security.PNG" alt="Mobile Security" />
+            <img
+              src="../Images/network security.PNG"
+              alt="Network Security"
+              data-aos="fade-up"
+            />
           </div>
           <div>
             <img
               src="../Images/Information Security.PNG"
               alt="Information Security"
+              data-aos="fade-left"
             />
           </div>
         </div>
         <!--  types of  Cyber Security---------------------------- -->
         <div id="cyb-div">
-          <div class="cyb" id="cyb-1">
+          <div class="cyb" id="cyb-1" data-aos="fade-right">
             <h5>أمن التطبيقات</h5>
             <p dir="rtl">
               علوم يشمل أمن التطبيقات الإجراءات المتخذة لتحسين أمان أحد
@@ -95,7 +106,7 @@
               الترقية.
             </p>
           </div>
-          <div class="cyb" id="cyb-2">
+          <div class="cyb" id="cyb-2" data-aos="fade-up">
             <h5>أمن شبكات المعلومات</h5>
             <p dir="rtl">
               هي مجموعة من الإجراءات التي يمكن خلالها توفير الحماية القصوى
@@ -105,7 +116,7 @@
               المعلومات وسلامة المعلومات وضمان الوصول إلى المعلومات.
             </p>
           </div>
-          <div class="cyb" id="cyb-3">
+          <div class="cyb" id="cyb-3" data-aos="fade-left">
             <h5>أمن المعلومات</h5>
             <p dir="rtl">
               أمن المعلومات هو العلم الذي يعمل على توفير الحماية للمعلومات من
@@ -116,10 +127,37 @@
           </div>
         </div>
       </div>
+
+      <hr class="hr" />
+
+      <div id="cyb-youtube">
+        <div id="cyb-youtube-title" dir="rtl" data-aos="flip-up">
+          <h2>قنوات يوتيوب لتعلم</h2>
+          <h2>الأمن السيبيراني</h2>
+        </div>
+        <div id="cyb-youtube-text" data-aos="flip-up">
+          <ul>
+            <li>Cyber security & info.training</li>
+            <li>Muhammed Essa</li>
+            <li>OpenSecurity Training2</li>
+          </ul>
+          <ul>
+            <li>free4arab</li>
+            <li>TabbanTube</li>
+          </ul>
+        </div>
+      </div>
+      <!-- free4arab Muhammed Essa Cyber security & info.training TabbanTube
+      OpenSecurity Training2 -->
     </div>
     <div id="footer">
       <p>© Progdata 2022 all rights reserved</p>
     </div>
     <script src="../JS-Pages/script.js"></script>
+    <script src="../JS-Pages/jquery-1.12.4.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

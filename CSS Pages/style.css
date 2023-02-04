@@ -28,6 +28,7 @@ body {
 }
 
 #navbar {
+  font-family: "El Messiri", sans-serif;
   width: 100%;
   height: 70px;
   background-color: var(--nav-back);
@@ -84,6 +85,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  color: var(--text);
 }
 #benefits-div {
   width: 100%;
@@ -95,6 +97,7 @@ body {
   flex-direction: row-reverse;
   justify-content: space-around;
   align-items: center;
+  color: var(--text);
 }
 #benefits-title {
   font-family: "El Messiri", sans-serif;
@@ -153,6 +156,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: var(--Back-2);
+  color: var(--text);
 }
 #line-1 {
   width: 100%;

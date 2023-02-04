@@ -12,7 +12,9 @@
       href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&family=Tajawal:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="../CSS Pages/web-dev.css" />
+    <link rel="stylesheet" href="../CSS Pages/normalize.css" />
   </head>
   <body>
     <div id="container">
@@ -39,9 +41,9 @@
         />
       </div>
       <div id="title" dir="rtl">
-        <h1>تطوير مواقع الويب</h1>
-        <h1>Web Development</h1>
-        <h3>
+        <h1 data-aos="fade-down">تطوير مواقع الويب</h1>
+        <h1 data-aos="fade-down">Web Development</h1>
+        <h3 data-aos="fade-up">
           يعتبر مجال تطوير المواقع واحدا من أهم مجالات البرمجة حاليا وينقسم إلى
           قسمين أساسيين تطوير الواجهة الأمامية Front-end Development وتطوير
           الواجهة الخلفية Back-end Development.
@@ -50,11 +52,11 @@
       <!-- front-end-------------------------------------------------- -->
 
       <div id="front-end">
-        <div id="front-end-title">
+        <div id="front-end-title" data-aos="fade-right">
           <p>تطوير الواجهة الأمامية</p>
           <p>Front-end Development</p>
         </div>
-        <div id="front-end-text">
+        <div id="front-end-text" data-aos="fade-left">
           <p dir="rtl">
             هو الخاص بتطوير كل ما يتعلق بالواجهة الأمامية للتطبيقات ومظهرها ، أي
             كل ما يشاهده المستخدم ويراه بعينة من واجهات وأشكال وأيقونات وخطوط
@@ -66,23 +68,35 @@
         </div>
         <div id="lang-position">
           <div id="lang-container">
-            <h2 id="front-lang-title" dir="rtl">
+            <h2 id="front-lang-title" dir="rtl" data-aos="fade-left">
               بعض لغات تطوير الواجهات الأمامية
             </h2>
 
             <div class="lang-pic">
               <div>
-                <img src="../Images/CSS-square.png" alt="CSS" />
+                <img
+                  src="../Images/CSS-square.png"
+                  alt="CSS"
+                  data-aos="fade-right"
+                />
               </div>
               <div>
-                <img src="../Images/HTML-square.png" alt="HTML" />
+                <img
+                  src="../Images/HTML-square.png"
+                  alt="HTML"
+                  data-aos="fade-up"
+                />
               </div>
               <div>
-                <img src="../Images/JS-square.png" alt="JavaScript" />
+                <img
+                  src="../Images/JS-square.png"
+                  alt="JavaScript"
+                  data-aos="fade-left"
+                />
               </div>
             </div>
             <div id="lang-div">
-              <div class="lang" id="lang-2">
+              <div class="lang" id="lang-2" data-aos="fade-right">
                 <h5>2-CSS</h5>
                 <p dir="rtl">
                   لا تعتبر لغة CSS لغة برمجة، وهي اللغة التي تكمل HTML وهي
@@ -93,7 +107,7 @@
                   هو CSS3.
                 </p>
               </div>
-              <div class="lang" id="lang-1">
+              <div class="lang" id="lang-1" data-aos="fade-up">
                 <h5>1-HTML</h5>
                 <p dir="rtl">
                   لا تعتبر لغة HTML / لغة برمجة ولكنها تسمى لغة، وهي تعتبر من
@@ -102,7 +116,7 @@
                   HTML5.
                 </p>
               </div>
-              <div class="lang" id="lang-2">
+              <div class="lang" id="lang-2" data-aos="fade-left">
                 <h5>3-JavaScript</h5>
                 <p dir="rtl">
                   لغة JavaScript يمكن أن نعتبرها الخطوة الأخيرة في تطوير
@@ -123,11 +137,11 @@
       <!-- lang-youtube-------------------------------------------------- -->
 
       <div id="lang-youtube">
-        <div id="lang-youtube-title">
+        <div id="lang-youtube-title" data-aos="flip-up">
           <h2>قنوات يوتيوب لتعلم</h2>
           <h2>تطوير الواجهات الأمامية</h2>
         </div>
-        <div id="lang-youtube-text">
+        <div id="lang-youtube-text" data-aos="flip-up">
           <ul>
             <li>Elzero Web School</li>
             <li>TheNewBaghdad</li>
@@ -143,11 +157,11 @@
 
       <!-- Frameworks intro-------------------------------------------------- -->
       <div id="framework-intro" dir="rtl">
-        <div id="framework-title">
+        <div id="framework-title" data-aos="fade-right">
           <h2>أطارات العمل</h2>
           <h2>Frameworks</h2>
         </div>
-        <div id="framework-text">
+        <div id="framework-text" data-aos="fade-left">
           <p>
             إطار العمل Framework عبارة عن بيئة مُجهزة بمجموعة من الأدوات
             والمكتبات، والتي تحتوي على تعليمات برمجية مكتوبة مسبقاً لاستخدامها
@@ -165,16 +179,24 @@
           <!-- Frameworks pic row1-------------------------------------------------- -->
           <div class="framework-pic">
             <div>
-              <img src="../Images/react.png" alt="React JS" />
+              <img
+                src="../Images/react.png"
+                alt="React JS"
+                data-aos="fade-right"
+              />
             </div>
             <div>
-              <img src="../Images/angular.png" alt="Angular" />
+              <img
+                src="../Images/angular.png"
+                alt="Angular"
+                data-aos="fade-left"
+              />
             </div>
           </div>
           <!-- Frameworks row 1-------------------------------------------------- -->
 
           <div class="framework-container">
-            <div class="framework" id="framework-1">
+            <div class="framework" id="framework-1" data-aos="fade-right">
               <h5>1-React Js</h5>
               <p dir="rtl">
                 هو إطار عمل مهم في لغة البرمجة JavaScript / الذي تم ابتكاره
@@ -184,7 +206,7 @@
                 مشاركة الملفات السحابية على الإنترنت تستخدم إطار العمل React JS.
               </p>
             </div>
-            <div class="framework" id="framework-2">
+            <div class="framework" id="framework-2" data-aos="fade-left">
               <h5>2-Angular</h5>
               <p dir="rtl">
                 هي مكتبة برمجية وإطار عمل ويب مفتوح المصدر متخصصة بتصميم واجهات
@@ -200,16 +222,24 @@
           <!-- Frameworks pic row1--------------------------------------------- -->
           <div class="framework-pic-2">
             <div>
-              <img src="../Images/vue-js.png" alt="Vue JS" />
+              <img
+                src="../Images/vue-js.png"
+                alt="Vue JS"
+                data-aos="fade-right"
+              />
             </div>
             <div>
-              <img src="../Images/react.png" alt="React Native" />
+              <img
+                src="../Images/react.png"
+                alt="React Native"
+                data-aos="fade-left"
+              />
             </div>
           </div>
           <!-- Frameworks row 2-------------------------------------------------- -->
 
           <div class="framework-container-2">
-            <div class="framework" id="framework-3">
+            <div class="framework" id="framework-3" data-aos="fade-right">
               <h5>3-Vue JS</h5>
               <p dir="rtl">
                 هو إطار عمل للغة JavaScript حديث وسهل، يستخدم في بناء واجهات
@@ -218,7 +248,7 @@
                 صفحة الويب مما يعطي تجربة مستخدم أفضل.
               </p>
             </div>
-            <div class="framework" id="framework-4">
+            <div class="framework" id="framework-4" data-aos="fade-left">
               <h5>4-React Native</h5>
               <p dir="rtl">
                 React Native هو إطار عمل لبرامج واجهة المستخدم مفتوحة المصدر تم
@@ -232,11 +262,11 @@
 
         <!-- Framework Youtube----------------------------------------- -->
         <div id="framework-youtube">
-          <div id="framework-youtube-title">
+          <div id="framework-youtube-title" data-aos="flip-up">
             <h2>قنوات يوتيوب لتعلم</h2>
             <h2>أطارات العمل</h2>
           </div>
-          <div id="framework-youtube-text">
+          <div id="framework-youtube-text" data-aos="flip-up">
             <ul>
               <li>Elzero Web School</li>
               <li>Vivacode</li>
@@ -252,11 +282,11 @@
       </div>
       <!-- Back-end----------------------------------------------- -->
       <div id="back-end-container">
-        <div id="back-end-title">
+        <div id="back-end-title" data-aos="fade-right">
           <p>تطوير الواجهة الخلفية</p>
           <p>Back-end Development</p>
         </div>
-        <div id="back-end-text">
+        <div id="back-end-text" data-aos="fade-left">
           <p dir="rtl">
             Back-end development يعني تطوير وصيانة البنية التحتية أو الأساس
             للتطبيق، وأيضا تصميم وتعديل قواعد البيانات الخاصة بالتعامل مع هذا
@@ -264,14 +294,14 @@
             بوابات الدفع والاتصال بقاعدة البيانات.
           </p>
         </div>
-        <div id="back-lang-title">
+        <div id="back-lang-title" data-aos="fade-up">
           <h2>إحدى لغات تطوير الواجهات الخلفية</h2>
         </div>
         <div id="php-position">
-          <div id="php-pic">
+          <div id="php-pic" data-aos="fade-right">
             <img src="../Images/PHP.png" alt="PHP" />
           </div>
-          <div id="php">
+          <div id="php" data-aos="fade-left">
             <h5>php</h5>
             <p dir="rtl">
               هي لغة مفتوحة المصدر تستخدم في برمجة الواجهات الخلفية للمواقع أيا
@@ -286,10 +316,10 @@
         <hr class="hr" />
 
         <div id="php-youtube">
-          <div id="php-youtube-title" dir="rtl">
+          <div id="php-youtube-title" dir="rtl" data-aos="flip-up">
             <h2>قنوات يوتيوب لتعلم لغة PHP</h2>
           </div>
-          <div id="php-youtube-text">
+          <div id="php-youtube-text" data-aos="flip-up">
             <ul>
               <li>Elzero Web School</li>
               <li>Muhammed Essa</li>
@@ -307,5 +337,10 @@
       <p>© Progdata 2022 all rights reserved</p>
     </div>
     <script src="../JS-Pages/script.js"></script>
+    <script src="../JS-Pages/jquery-1.12.4.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

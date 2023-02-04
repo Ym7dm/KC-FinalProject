@@ -12,7 +12,9 @@
       href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&family=Tajawal:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="../CSS Pages/mobile-dev.css" />
+    <link rel="stylesheet" href="../CSS Pages/normalize.css" />
   </head>
   <body>
     <div id="container">
@@ -39,9 +41,9 @@
         />
       </div>
       <div id="title" dir="rtl">
-        <h1>تطوير تطبيقات الموبايل</h1>
-        <h1>Mobile App Development</h1>
-        <h3>
+        <h1 data-aos="fade-down">تطوير تطبيقات الموبايل</h1>
+        <h1 data-aos="fade-down">Mobile App Development</h1>
+        <h3 data-aos="fade-up">
           يعتبر تطوير تطبيقات الموبايل إحدى أهم المهن البرمجية منذ انتشار
           الأجهزة الذكية، ولم تعد تتم عملية بناء أي تطبيق بنفس الطريقة الماضية،
           حيث أدى عدد المبرمجين الكبير أدى إلى تسهيل هذه العملية. تطبيقات
@@ -49,11 +51,11 @@
         </h3>
       </div>
       <div id="native-container">
-        <div id="native-container-title">
+        <div id="native-container-title" data-aos="fade-right">
           <p>التطبيقات الأصلية</p>
           <p>Native Apps</p>
         </div>
-        <div id="native-container-text">
+        <div id="native-container-text" data-aos="fade-left">
           <p dir="rtl">
             وهي التطبيقات المبنية باستخدام اللغات الأصلية المخصصة للمنصة الموجهة
             إليها ، وهو النوع الأشهر بين أنواع التطبيقات ، إذ يستخدم لبناء تطبيق
@@ -62,33 +64,32 @@
             لغات عدة منها لغة Swift لنظام التشغيل iOS.
           </p>
         </div>
-        <div id="android-title">
+        <div id="android-title" data-aos="fade-up">
           <h2>تطبيقات الأندرويد</h2>
           <h2>Android Apps</h2>
         </div>
         <!-- Android pic --------------------------------------- -->
         <div id="native-pic-android">
           <div>
-            <img src="../Images/java.png" alt="Java" />
+            <img src="../Images/java.png" alt="Java" data-aos="fade-right" />
           </div>
           <div>
-            <img src="../Images/kotlin.png" alt="Kotlin" />
+            <img src="../Images/kotlin.png" alt="Kotlin" data-aos="fade-left" />
           </div>
         </div>
         <!-- Android languages --------------------------------------- -->
         <div id="Android-div">
-          <div class="Android" id="Android-1">
+          <div class="Android" id="Android-1" data-aos="fade-right">
             <h5>1-Java</h5>
             <p dir="rtl">
               لغة Java تستخدم بمثابة العقل المفكر المستخدم لتشغيل أجهزة
               التطبيقات الذكية، وقد كانت لغة الجافا تطويرا للغة
-              <a href="./game-dev.html#game-1" dir="ltr">C++</a> ، وأهم ما تتميز
-              به لغة Java إنشاء تطبيقات الاندرويد، وإضافة الحركة والصوت إلى
-              صفحات الويب، وكتابة الألعاب والبرامج المساعدة، وإنشاء برامج ذات
-              واجهة مستخدم رسومية.
+              <span dir="ltr">C++</span> ، وأهم ما تتميز به لغة Java إنشاء
+              تطبيقات الاندرويد، وإضافة الحركة والصوت إلى صفحات الويب، وكتابة
+              الألعاب والبرامج المساعدة، وإنشاء برامج ذات واجهة مستخدم رسومية.
             </p>
           </div>
-          <div class="Android" id="Android-2">
+          <div class="Android" id="Android-2" data-aos="fade-left">
             <h5>2-Kotlin</h5>
             <p dir="rtl">
               تعد لغة Kotlin لغة مبتكرة حديثة جمعت ما بين الميزات الموجودة في
@@ -102,7 +103,7 @@
         </div>
         <!-- IOS !!!!!!!!!!!!!!!---------------------------------------------- -->
         <hr class="hr" />
-        <div id="ios-title">
+        <div id="ios-title" data-aos="fade-up">
           <h2 dir="rtl">تطبيقات iOS</h2>
           <h2>iOS Apps</h2>
         </div>
@@ -110,12 +111,16 @@
         <div id="ios-position">
           <div id="native-pic-ios">
             <div>
-              <img src="../Images/swift.png" alt="Swift" />
+              <img
+                src="../Images/swift.png"
+                alt="Swift"
+                data-aos="fade-right"
+              />
             </div>
           </div>
           <!-- IOS languages --------------------------------------- -->
           <div id="ios-div">
-            <div class="ios" id="ios-1">
+            <div class="ios" id="ios-1" data-aos="fade-left">
               <h5>Swift</h5>
               <p dir="rtl">
                 Swift لغة برمجة متقنة وذكية ابتكرتها Apple لتطوير تطبيقات على
@@ -132,11 +137,11 @@
         <hr class="hr" />
         <!-- Native Youtube----------------------------------------- -->
         <div id="native-youtube">
-          <div id="native-youtube-title">
+          <div id="native-youtube-title" data-aos="flip-up">
             <h2>قنوات يوتيوب لتعلم لغات</h2>
             <h2>مجال تطوير التطبيقات الأصلية</h2>
           </div>
-          <div id="native-youtube-text">
+          <div id="native-youtube-text" data-aos="flip-up">
             <ul>
               <li>Brackeys</li>
               <li>Awesome Tuts</li>
@@ -150,11 +155,11 @@
       </div>
       <!-- Hybird Apps------------------------------------------------- -->
       <div id="hybird-container">
-        <div id="hybird-container-title">
+        <div id="hybird-container-title" data-aos="fade-right">
           <p>التطبيقات الهجينة</p>
           <p>Hybird Apps</p>
         </div>
-        <div id="hybird-container-text">
+        <div id="hybird-container-text" data-aos="fade-left">
           <p dir="rtl">
             هي تطبيقات مختلطة بين تطبيقات الويب والتطبيقات الأصلية، تستخدم لغة
             HTML ولغة CSS ولغة JavaScript في بنائها، وهي تظهر ضمن Container أو
@@ -163,19 +168,23 @@
           </p>
         </div>
         <!-- Flutter ------------------------------------------------- -->
-        <div id="hybird-lang-title">
+        <div id="hybird-lang-title" data-aos="fade-up">
           <h2>إحدى لغات التطبيقات الهجينة</h2>
         </div>
         <div id="flutter-position">
           <!-- Flutter pic------------------------------------------------- -->
           <div id="flutter-pic">
             <div>
-              <img src="../Images/flutter.png" alt="Swift" />
+              <img
+                src="../Images/flutter.png"
+                alt="Flutter"
+                data-aos="fade-right"
+              />
             </div>
           </div>
           <!-- Flutter Div------------------------------------------------- -->
           <div id="flutter-div">
-            <div class="flutter" id="flutter-1">
+            <div class="flutter" id="flutter-1" data-aos="fade-left">
               <h5>Flutter</h5>
               <p dir="rtl">
                 عبارة عن إطار عمل متعدد المنصات يتكون من حزمة أدوات لتطوير
@@ -189,11 +198,11 @@
         <hr class="hr" />
         <!-- Flutter Youtube----------------------------------------- -->
         <div id="flutter-youtube">
-          <div id="flutter-youtube-title">
+          <div id="flutter-youtube-title" data-aos="flip-up">
             <h2>قنوات يوتيوب لتعلم لغات</h2>
             <h2>مجال تطوير التطبيقات الهجينة</h2>
           </div>
-          <div id="flutter-youtube-text">
+          <div id="flutter-youtube-text" data-aos="flip-up">
             <ul>
               <li>Asem Saafan</li>
               <li>Ammar Alkhatib</li>
@@ -207,5 +216,10 @@
       <p>© Progdata 2022 all rights reserved</p>
     </div>
     <script src="../JS-Pages/script.js"></script>
+    <script src="../JS-Pages/jquery-1.12.4.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

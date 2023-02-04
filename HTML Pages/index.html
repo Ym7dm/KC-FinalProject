@@ -12,7 +12,9 @@
       href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&family=Tajawal:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="../CSS Pages/style.css" />
+    <link rel="stylesheet" href="../CSS Pages/normalize.css" />
   </head>
   <body>
     <div id="container">
@@ -40,7 +42,7 @@
         />
       </div>
       <div id="right-side"></div>
-      <div id="intro">
+      <div id="intro" data-aos="fade-left">
         <p>
           <span>كثيرا ما نسمع عن البرمجة ولغات </span>
           <span>البرمجة وأقسام ومجالات البرمجة</span>
@@ -53,8 +55,8 @@
         </p>
       </div>
       <div id="benefits-div">
-        <p id="benefits-title">أهمية تعلم البرمجة</p>
-        <p id="benefits-text" dir="rtl">
+        <p id="benefits-title" data-aos="fade-left">أهمية تعلم البرمجة</p>
+        <p id="benefits-text" dir="rtl" data-aos="fade-right">
           أصبحت البرمجة من أهم المجالات والاختصاصات المهنية المطلوبة في سوق
           العمل عالميا، وباتت مطلوبة بشدة من قبل أرباب العمل في العديد من
           المجالات والصناعات، وليس التكنولوجيا فقط، لذا يمكن أن يساعدك امتلاك
@@ -63,17 +65,17 @@
           مبدعين، وتساعد في حل المشكلات، كما تحسن مهارات الرياضيات.
         </p>
       </div>
-      <div id="prog-lang">
+      <div id="prog-lang" data-aos="zoom-in">
         <img
           src="../Images/Programming Languages.PNG"
           alt="Programming languages image"
         />
       </div>
       <div id="fields"></div>
-      <div id="prog-title"><p>بعض مجالات البرمجة</p></div>
+      <div id="prog-title"><p data-aos="zoom-in">بعض مجالات البرمجة</p></div>
       <div id="line-1">
         <a href="../HTML Pages/web-dev.html"
-          ><div class="card" id="card-1">
+          ><div class="card" id="card-1" data-aos="fade-right">
             <div class="card-text">
               <h3>تطوير مواقع الويب</h3>
               <h3>Web Development</h3>
@@ -82,7 +84,7 @@
           </div>
         </a>
         <a href="../HTML Pages/mobile-dev.html"
-          ><div class="card" id="card-2">
+          ><div class="card" id="card-2" data-aos="fade-left">
             <div class="card-text">
               <h3>تطوير تطبيقات الموبايل</h3>
               <h3>Mobile App Development</h3>
@@ -96,7 +98,7 @@
       </div>
       <div id="line-2">
         <a href="../HTML Pages/game-dev.html"
-          ><div class="card" id="card-3">
+          ><div class="card" id="card-3" data-aos="fade-right">
             <div class="card-text">
               <h3>تطوير الألعاب</h3>
               <h4>Game Development</h4>
@@ -105,10 +107,10 @@
           </div>
         </a>
         <a href="../HTML Pages/cyber-sec.html"
-          ><div class="card" id="card-4">
+          ><div class="card" id="card-4" data-aos="fade-left">
             <div class="card-text">
               <h3>الأمن السيبيراني</h3>
-              <h3>Syper Security</h3>
+              <h3>Cyper Security</h3>
             </div>
             <img src="../Images/Syper Sec.jpg" alt="Syper Security image" />
           </div>
@@ -119,5 +121,10 @@
       <p>© Progdata 2022 all rights reserved</p>
     </div>
     <script src="../JS-Pages/script.js"></script>
+    <script src="../JS-Pages/jquery-1.12.4.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

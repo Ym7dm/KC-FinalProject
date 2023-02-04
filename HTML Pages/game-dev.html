@@ -12,7 +12,9 @@
       href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;700&family=Tajawal:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="../CSS Pages/game-dev.css" />
+    <link rel="stylesheet" href="../CSS Pages/normalize.css" />
   </head>
   <body>
     <div id="container">
@@ -39,9 +41,9 @@
         />
       </div>
       <div id="title" dir="rtl">
-        <h1>تطوير الألعاب</h1>
-        <h1>Game Development</h1>
-        <h3>
+        <h1 data-aos="fade-down">تطوير الألعاب</h1>
+        <h1 data-aos="fade-down">Game Development</h1>
+        <h3 data-aos="fade-up">
           هو مجال يتم فيه تطوير وبرمجة وتحويل الأفكار إلى لعبة، وعملية تطوير
           الألعاب وظيفة تتطلب معرفة بكيفية البرمجة والتفكير بطريقة إبداعية،
           ومهارات في حل المشاكل، لكي تصبح مطور ألعاب. يوجد لغتين شهيرتين في هذا
@@ -49,11 +51,11 @@
         </h3>
       </div>
       <div id="game-engines">
-        <div id="game-engines-title">
+        <div id="game-engines-title" data-aos="fade-left">
           <h2>محركات الألعاب</h2>
           <h2>Game Engines</h2>
         </div>
-        <div id="game-engines-text">
+        <div id="game-engines-text" data-aos="fade-right">
           <p dir="rtl">
             محرك الألعاب هو عبارة عن برنامج أساسي يمكن المطور من القيام بالعديد
             من المهام البرمجية عن طريق أوامر مسجلة في الأساس داخل محرك التطوير،
@@ -68,21 +70,21 @@
         </div>
       </div>
       <div id="game-container">
-        <div id="game-container-title">
+        <div id="game-container-title" data-aos="fade-up">
           <h2>بعض لغات مجال تطوير الألعاب</h2>
         </div>
         <!-- Game Picture---------------------------------------- -->
         <div id="game-pic">
           <div>
-            <img src="../Images/C++.png" alt="C++" />
+            <img src="../Images/C++.png" alt="C++" data-aos="fade-right" />
           </div>
           <div>
-            <img src="../Images/c-sharp.png" alt="C#" />
+            <img src="../Images/c-sharp.png" alt="C#" data-aos="fade-left" />
           </div>
         </div>
         <!-- Game Development languages--------------------------------------- -->
         <div id="game-div">
-          <div class="game" id="game-1">
+          <div class="game" id="game-1" data-aos="fade-right">
             <h5>C++</h5>
             <p dir="rtl">
               هي لغة برمجة كائنية متعددة الأغراض، وتميزت قوية، إذ تستعمل في
@@ -92,7 +94,7 @@
               البيانات.
             </p>
           </div>
-          <div class="game" id="game-2">
+          <div class="game" id="game-2" data-aos="fade-left">
             <h5>C#</h5>
             <p dir="rtl">
               هي لغة برمجة حديثة موجهة للكائنات، وتم تأسيسها في البداية كمنافسة
@@ -105,11 +107,11 @@
 
         <hr class="hr" id="game-hr" />
         <div id="game-youtube">
-          <div id="game-youtube-title">
+          <div id="game-youtube-title" data-aos="flip-up">
             <h2>قنوات يوتيوب لتعلم لغات</h2>
             <h2>مجال تطوير الألعاب</h2>
           </div>
-          <div id="game-youtube-text">
+          <div id="game-youtube-text" data-aos="flip-up">
             <ul>
               <li>Brackeys</li>
               <li>Awesome Tuts</li>
@@ -126,5 +128,10 @@
       <p>© Progdata 2022 all rights reserved</p>
     </div>
     <script src="../JS-Pages/script.js"></script>
+    <script src="../JS-Pages/jquery-1.12.4.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
